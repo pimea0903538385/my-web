@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="shop.portal.mapper.commodityMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="shop.portal.entity.commodity">
+        <id column="commodity_id" property="commodityId" />
+        <result column="category_id" property="categoryId" />
+        <result column="commodity_name" property="commodityName" />
+        <result column="commodity_desciption" property="commodityDesciption" />
+        <result column="commodity_price" property="commodityPrice" />
+        <result column="commodity_total" property="commodityTotal" />
+        <result column="commodity_type" property="commodityType" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        commodity_id, category_id, commodity_name, commodity_desciption, commodity_price, commodity_total, commodity_type
+    </sql>
+
+</mapper>

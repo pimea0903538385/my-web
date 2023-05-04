@@ -1,0 +1,37 @@
+.postion{
+    margin-left: 1200px;
+    margin-top: 70px;
+    width: 300px ;
+
+ 
+}
+.item_detail{
+   display: flex;
+}
+.img{
+ height: 100px;
+ width: 100px;
+}
+.detail-postion{
+margin-top:40px ;
+}
+.checkout{
+    background-color: black;
+    font-size: large;
+    
+}
+.item-img{
+    width: 80px;
+    height: 80px;
+}
+
+
+.ImgTop{
+    height: 400px;
+    margin-top: 70px;
+}
+
+
+
+
+
